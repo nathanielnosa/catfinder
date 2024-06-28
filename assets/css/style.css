@@ -1,0 +1,28 @@
+:root {
+    --main-color: #FFAC16;
+    --second-color: #AA720E;
+    --white: #fff;
+}
+
+/* navbar */
+/* navbar */
+nav {
+    background: var(--main-color);
+}
+
+nav .navbar-brand {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+nav .navbar-brand>span {
+    color: var(--second-color);
+}
+
+nav .navbar-nav li {
+    font-weight: bold
+}
+
+nav .navbar-nav li a {
+    color: var(--white)
+}
